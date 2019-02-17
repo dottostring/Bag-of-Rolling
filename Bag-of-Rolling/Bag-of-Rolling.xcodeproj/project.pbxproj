@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		740D59E92219F78200E50FEB /* Bag_of_Rolling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740D59DF2219F78200E50FEB /* Bag_of_Rolling.framework */; };
-		740D59EE2219F78200E50FEB /* Bag_of_RollingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740D59ED2219F78200E50FEB /* Bag_of_RollingTests.swift */; };
 		740D59F02219F78200E50FEB /* Bag_of_Rolling.h in Headers */ = {isa = PBXBuildFile; fileRef = 740D59E22219F78200E50FEB /* Bag_of_Rolling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		740D59FD2219F7D400E50FEB /* ValueModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740D59FA2219F7D400E50FEB /* ValueModifier.swift */; };
 		740D59FE2219F7D400E50FEB /* Roll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740D59FB2219F7D400E50FEB /* Roll.swift */; };
 		740D59FF2219F7D400E50FEB /* Castable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740D59FC2219F7D400E50FEB /* Castable.swift */; };
 		740D5A012219F81C00E50FEB /* GenericError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740D5A002219F81C00E50FEB /* GenericError.swift */; };
 		740D5A042219F84800E50FEB /* Range+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740D5A032219F84800E50FEB /* Range+Codable.swift */; };
+		740D5A07221A069700E50FEB /* RandomInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740D5A06221A069700E50FEB /* RandomInt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,13 +32,12 @@
 		740D59E22219F78200E50FEB /* Bag_of_Rolling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bag_of_Rolling.h; sourceTree = "<group>"; };
 		740D59E32219F78200E50FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		740D59E82219F78200E50FEB /* Bag-of-RollingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bag-of-RollingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		740D59ED2219F78200E50FEB /* Bag_of_RollingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag_of_RollingTests.swift; sourceTree = "<group>"; };
-		740D59EF2219F78200E50FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		740D59FA2219F7D400E50FEB /* ValueModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueModifier.swift; sourceTree = "<group>"; };
 		740D59FB2219F7D400E50FEB /* Roll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roll.swift; sourceTree = "<group>"; };
 		740D59FC2219F7D400E50FEB /* Castable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Castable.swift; sourceTree = "<group>"; };
 		740D5A002219F81C00E50FEB /* GenericError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericError.swift; sourceTree = "<group>"; };
 		740D5A032219F84800E50FEB /* Range+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Range+Codable.swift"; sourceTree = "<group>"; };
+		740D5A06221A069700E50FEB /* RandomInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomInt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				740D59E12219F78200E50FEB /* Bag-of-Rolling */,
-				740D59EC2219F78200E50FEB /* Bag-of-RollingTests */,
 				740D59E02219F78200E50FEB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,40 +79,24 @@
 		740D59E12219F78200E50FEB /* Bag-of-Rolling */ = {
 			isa = PBXGroup;
 			children = (
-				740D5A022219F82400E50FEB /* Utilities */,
-				740D59F92219F7D400E50FEB /* Rolling */,
+				740D5A05221A05F800E50FEB /* Classes */,
 				740D59E22219F78200E50FEB /* Bag_of_Rolling.h */,
 				740D59E32219F78200E50FEB /* Info.plist */,
 			);
 			path = "Bag-of-Rolling";
 			sourceTree = "<group>";
 		};
-		740D59EC2219F78200E50FEB /* Bag-of-RollingTests */ = {
+		740D5A05221A05F800E50FEB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				740D59ED2219F78200E50FEB /* Bag_of_RollingTests.swift */,
-				740D59EF2219F78200E50FEB /* Info.plist */,
-			);
-			path = "Bag-of-RollingTests";
-			sourceTree = "<group>";
-		};
-		740D59F92219F7D400E50FEB /* Rolling */ = {
-			isa = PBXGroup;
-			children = (
+				740D5A06221A069700E50FEB /* RandomInt.swift */,
 				740D59FA2219F7D400E50FEB /* ValueModifier.swift */,
 				740D59FB2219F7D400E50FEB /* Roll.swift */,
 				740D59FC2219F7D400E50FEB /* Castable.swift */,
-			);
-			path = Rolling;
-			sourceTree = "<group>";
-		};
-		740D5A022219F82400E50FEB /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
 				740D5A032219F84800E50FEB /* Range+Codable.swift */,
 				740D5A002219F81C00E50FEB /* GenericError.swift */,
 			);
-			path = Utilities;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +211,7 @@
 				740D5A012219F81C00E50FEB /* GenericError.swift in Sources */,
 				740D59FE2219F7D400E50FEB /* Roll.swift in Sources */,
 				740D59FD2219F7D400E50FEB /* ValueModifier.swift in Sources */,
+				740D5A07221A069700E50FEB /* RandomInt.swift in Sources */,
 				740D59FF2219F7D400E50FEB /* Castable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,7 +220,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				740D59EE2219F78200E50FEB /* Bag_of_RollingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
