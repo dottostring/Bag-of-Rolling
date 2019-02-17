@@ -1,6 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "Bag-of-Rolling"
-  s.version      = "1.7"
+  s.swift_version = '4.2'
+  s.version      = "1.8"
   s.summary      = "An RPG Dice Rolling Framework."
   s.description  = "To make it easy to roll dice with modifiers for RPG systems"
   s.homepage     = "https://github.com/dottostring/Bag-of-Rolling"
