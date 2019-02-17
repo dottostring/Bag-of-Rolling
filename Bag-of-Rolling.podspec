@@ -6,6 +6,5 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/dottostring/Bag-of-Rolling"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Adam Hitt" => "droppingjake1@gmail.com" }
-  s.source       = { :git => "https://github.com/dottostring/Bag-of-Rolling.git", :tag => "#{s.version}" }
   s.source_files  = "'Bag-of-Rolling/Bag-of-Rolling/**/*.{swift}"
 end
